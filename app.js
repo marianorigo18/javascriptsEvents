@@ -1,4 +1,4 @@
-import {contenedorBg, contenedorBgTwo, contenedorBgThree, contenedorBgFour, contenedorBgFive, contenedorBgSix, contenedorBgSeven, contenedorBgEight, contenedorBgNine, contenedorBgTen, contenedorBgEleven, contenedorBgTwelve} from './js/cambiarBg.js';
+import {contenedorBg, contenedorBgTwo, contenedorBgThree, contenedorBgFour, contenedorBgFive, contenedorBgSix, contenedorBgSeven, contenedorBgEight, contenedorBgNine, contenedorBgTen, contenedorBgEleven, contenedorBgTwelve, contenedorBgThirtenn, contenedorBgFourteen} from './js/cambiarBg.js';
 
 contenedorBg;
 contenedorBgTwo;
@@ -12,3 +12,5 @@ contenedorBgNine;
 contenedorBgTen;
 contenedorBgEleven;
 contenedorBgTwelve;
+contenedorBgThirtenn;
+contenedorBgFourteen;
