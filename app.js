@@ -1,4 +1,5 @@
 import {contenedorBg, contenedorBgTwo, contenedorBgThree, contenedorBgFour, contenedorBgFive, contenedorBgSix, contenedorBgSeven, contenedorBgEight, contenedorBgNine, contenedorBgTen, contenedorBgEleven, contenedorBgTwelve, contenedorBgThirtenn, contenedorBgFourteen} from './js/cambiarBg.js';
+import {openBtn, closeBtn, modal, contenedorModal} from './js/modal.js';
 
 contenedorBg;
 contenedorBgTwo;
@@ -14,3 +15,7 @@ contenedorBgEleven;
 contenedorBgTwelve;
 contenedorBgThirtenn;
 contenedorBgFourteen;
+openBtn;
+closeBtn;
+modal;
+contenedorModal;
