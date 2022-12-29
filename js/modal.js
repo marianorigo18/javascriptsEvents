@@ -7,17 +7,9 @@ export const openBtn = document.querySelectorAll('.modal-btn');
 export const closeBtn = document.querySelectorAll('.close-btn');
 export const modal = document.querySelectorAll('.modal-overlay');
 
-openBtn.forEach( btn => {
-    btn.addEventListener('click', () => {
-        modal.classList.add('open-modal');
-    })
-});
+console.log(openBtn)
 
-closeBtn.forEach( btn => {
-    btn.addEventListener('click', () => {
-        modal.classList.remove('open-modal')
-    })
-})
+
 
 let fragment = '';
 
@@ -43,3 +35,16 @@ imagenes.forEach( img => {
 })
 
 contenedorModal.innerHTML = fragment;
+
+openBtn.forEach( btn => {
+    btn.addEventListener('click', () => {
+        modal.classList.add('open-modal');
+    })
+});
+
+closeBtn.forEach( btn => {
+    btn.addEventListener('click', () => {
+        modal.classList.remove('open-modal')
+    })
+})
+
